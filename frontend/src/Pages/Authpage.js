@@ -9,7 +9,7 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("./images/loginbg4.jpg");
+  background: url("./images/loginbg.jpg");
   background-size: cover;
   @media (max-width: 768px) {
     background: none;
