@@ -23,9 +23,8 @@ const PlannerIcon = styled.div`
   border-radius: 50%;
   background: rgb(255, 147, 113, 0.7);
   margin-bottom: 5%;
-  @media (max-height: 680px) {
-    height: 75px;
-    width: 75px;
+  @media (max-height: 780px) {
+    display: none;
   }
 `;
 const Input = styled.input`
@@ -41,6 +40,9 @@ const Input = styled.input`
   }
   &::placeholder {
     color: rgb(80, 80, 80);
+  }
+  @media (max-height: 780px) {
+    margin: 5px 0;
   }
 `;
 const LoginButton = styled.button`
